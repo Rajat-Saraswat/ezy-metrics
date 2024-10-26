@@ -23,16 +23,17 @@ EzyMetrics Backend is a Node.js service that integrates with CRM and marketing p
    git clone <repository-url>
    cd ezy-metrics-backend
 2. **Install Dependencies
-    npm install
+   - npm install
 
 3. **Create a .env file
 
-  MONGO_URI=mongodb://localhost:27017/ezy-metrics
-  EMAIL_USER=your_email@gmail.com
-  EMAIL_PASS=your_email_password
-  OPENAI_API_KEY=your_openai_api_key
+   
+  - MONGO_URI=mongodb://localhost:27017/ezy-metrics
+  - EMAIL_USER=your_email@gmail.com
+  - EMAIL_PASS=your_email_password
+  - OPENAI_API_KEY=your_openai_api_key
 
 4. Run MondoDB
 
 5. Run the Server
-   npm run dev
+  - npm run dev
